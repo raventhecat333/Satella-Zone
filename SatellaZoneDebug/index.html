@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head> <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+<meta name="platform" content="MARS">
+	<style>
+	div.wrapper      { width:320px; }
+	div.dialogselect { margin: 3px; }
+	div.dialog	     { margin: 2px; }
+	body		     { margin:0px; background-color: #000000; }
+	#middle		     { margin:2px; padding:0; vertical-align: middle; display: inline;  }
+	
+	table			 { width: 100%; }
+	td				 { width: 50%; }
+
+	.blinkytext {
+		text-decoration: blink;
+		font-style: normal;
+		color:white;
+		padding:20px;
+		display:inline-block;
+		background-color:gray;
+	}
+		</style>
+	<back top="./index.html">
+</head>
+
+<body>
+
+<a name="top"></a>
+<br>
+<br>
+<center>
+<a href="#bottom" class="blinkytext">Tap here to go to the bottom</a>
+</center>
+<br>
+<div class="wrapper">
+	<div class="dialogselect">
+		<div class="dialog"><img id="middle" src="offline.png"><a href="rom:/www/included_html/top_page/black_top.html,rom:/www/included_html/offline_mode/offline_mode.html">Jump to 
+		Offline mode page</a></div>
+	</div>
+		<div class="dialogselect">
+		<div class="dialog"><img id="middle" src="paint.png"><paint timelimit="999" sendhref="../../cgi-bin/debug_send.cgi" backhref="../../cgi-bin/debug_send.html" >Open Paint Plugin</paint></div>
+	</div>	
+	<div class="dialogselect">
+		<div class="dialog"><img id="middle" src="mediaplay.png"><media class="nav2" src="../../media/pingu.moflex">Open Media Player Plugin</media></div>
+	</div>
+    <title>The web site of satellazone</title>
+    <!-- The style.css file allows you to change the look of your web pages.
+         If you include the next line in all your web pages, they will all share the same look.
+         This makes it easier to make new pages for your site. -->
+    <link href="/style.css" rel="stylesheet" type="text/css" media="all">
+  </head>
+  <body>
+    <h1>Welcome to my Website!</h1>
+	<img src="star.gif" style="z-index:-1;position:absolute;left:120px;top: 20px;">
+	<img src="star.gif" style="z-index:-1;position:absolute;right:800px;top: 600px;">
+
+  </body>
+</html>
